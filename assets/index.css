@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Montserrat:ital,wght@0,900;1,100&display=swap');
 *{
-    background-color: #243463;
+    /* */
     color: whitesmoke;
     padding: 0;
     margin: 0;
@@ -14,5 +14,17 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #243463;
 
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0, 0.6);
+    border-radius: 10px;
+    width: 600px;
+    background-color: #504aa7;
+    margin: 10px;
 }
